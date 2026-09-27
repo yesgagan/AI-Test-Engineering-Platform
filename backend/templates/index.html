@@ -116,7 +116,7 @@
 
         .stats {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(3, 1fr);
             gap: 18px;
             margin-bottom: 25px;
         }
@@ -408,22 +408,6 @@
                     id="testCount"
                 >
                     0
-                </div>
-
-            </div>
-
-
-            <div class="card">
-
-                <h3>
-                    CODE COVERAGE
-                </h3>
-
-                <div
-                    class="number"
-                    id="coverage"
-                >
-                    --
                 </div>
 
             </div>
@@ -828,19 +812,6 @@
                     "testCount"
                 ).innerText =
                     totalTests;
-
-
-
-                /*
-                ====================================================
-                CODE COVERAGE
-                ====================================================
-                */
-
-                document.getElementById(
-                    "coverage"
-                ).innerText =
-                    "--";
 
 
 
